@@ -1,0 +1,54 @@
+Sugerido utilizar o notion como anotações e similar ao trello
+
+*** Vide mapa mental no google Drive
+
+Instalar o nodejs via homebrew
+
+. Backend
+(é o que o usuário nao enxerga)
+    . Regra de negócio
+    . Conexão banco de dados
+    . Envio de e-mail
+    . Comunicação com webservices
+    . Autenticação do usuário
+    . Criptografia e segurança
+
+. Criar pastas conforme abaixo
+/Volumes/Macintosch/Users/asvarga/App/JavaScript/SkylabRocketSeat/SemanaOmniStack/aulas/backend
+
+$ npm init -y
+$ npm install express 
+
+    (ou executar pelo terminal no vscode conf. abaixo)
+    . Abrir o VS code
+        . Open folder 
+        . Navegar até o caminho criado acima 
+
+    . Abrir o terminal do VScode 
+        . Vá até a pasta backend> botão direito> Open in terminal
+        . Verificar se está na pasta do projeto acima
+        . npm install express
+
+
+. Na pasta backend (0:41:00)
+    . Criar arquivo index.js
+    (vide o conteudo do arquivo criado)
+        
+// Para executar abra o terminal e digite
+// node index.js
+// Para cancelar vide abaixo
+
+. Abra o navegador 
+    . digite localhost:3333
+    . Aparecerá "Cannot Get /"
+    (Significa que nenhuma rota foi criada)
+
+// para cancelar CTRL+C    
+. Se vc der um refresh no browse ocorre um erro
+
+// instalar estensão json viewer no chrome
+
+. Vá para o terminal
+. Volte para a pasta [aulas]
+    (Crie o app frontend)
+    $ npx create-react-app frontend
